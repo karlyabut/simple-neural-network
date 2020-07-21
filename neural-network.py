@@ -16,7 +16,7 @@ training_outputs = np.array([[0,1,1,0]]).T
 
 np.random.seed(1)
 
-#create 3x1 because we have 3 input and 1 output, random values from -1 to 1
+#create 3x1 for the input, random values from -1 to 1
 synaptic_weights = 2 * np.random.random((3,1)) - 1
 
 print('Random starting synaptic weights: ')
